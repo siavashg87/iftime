@@ -12,7 +12,8 @@ npm install iftime
 
 ## Description
 
-where:
+A lightweight package to imitate Asterisk * IFTIME function
+
 ```bash
 iftime(<time range>,<days of week>,<days of month>,<months>, date_to_compare);
 
