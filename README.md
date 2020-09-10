@@ -1,6 +1,5 @@
 # IFTIME
 
-[![Build Status](https://travis-ci.org/rundef/iftime.svg?branch=master)](https://travis-ci.org/rundef/iftime)
 [![Node version required](https://img.shields.io/node/v/iftime.svg)](https://www.npmjs.com/package/iftime)
 [![Latest Stable Version](https://img.shields.io/npm/v/iftime.svg)](https://www.npmjs.com/package/iftime)
 
