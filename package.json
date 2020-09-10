@@ -1,0 +1,39 @@
+{
+  "name": "iftime",
+  "version": "0.0.1",
+  "description": "A lightweight package to imitate Asterisk * IFTIME function",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/mocha": "^8.0.3",
+    "mocha": "^8.1.3"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./dist/index.js",
+  "typings": "./dts/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist/* && rm -rf dts/* && tsc",
+    "test": "mocha ./dist/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siavashg87/iftime.git"
+  },
+  "keywords": [
+    "asterisk iftime",
+    "time intervals",
+    "schedule",
+    "date intervals",
+    "interval"
+  ],
+  "bugs": {
+    "url": "https://github.com/siavashg87/iftime/issues"
+  },
+  "homepage": "https://github.com/siavashg87/iftime#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": "Siavash Goudarzi <info@siavashg.com>"
+}
