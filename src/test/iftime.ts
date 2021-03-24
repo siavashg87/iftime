@@ -134,4 +134,9 @@ describe("iftime", () => {
     assert.equal(error, true);
     done();
   });
+
+  it("Day thu", (done) => {
+    assert.equal(iftime("08:00-16:00,mon-thu,*,*", "2020-01-01 12:00"), true);
+    done();
+  });
 });

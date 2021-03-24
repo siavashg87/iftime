@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.toDate = void 0;
-var daynames = ["sun", "mon", "tue", "wed", "tor", "fri", "sat"];
+var daynames = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
 var monthnames = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
 function toDate(dt) {
     if (dt === void 0) { dt = null; }

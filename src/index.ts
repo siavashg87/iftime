@@ -1,6 +1,6 @@
 type Nullable<T> = T | null;
 
-const daynames = ["sun", "mon", "tue", "wed", "tor", "fri", "sat"];
+const daynames = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
 const monthnames = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
 
 export function toDate(dt: Nullable<string | number> = null): Date {
